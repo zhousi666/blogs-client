@@ -31,6 +31,7 @@ The config of blogs client is made up of  [config/index.js](https://github.com/z
 	git clone https://github.com/zhousi666/blogs-client.git
 	
 	// start blogs client
+	cd blogs-client
 	sudo docker-compose -f docker-compose.yml up -d 
 	or : sudo docker-compose -f docker-compose.yml up
 
