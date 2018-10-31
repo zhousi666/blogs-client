@@ -1,0 +1,9 @@
+version: '2'
+services:
+    discuzD_client:
+        build: .
+        image: discuzd:0.0.1
+        restart: always
+        working_dir: /root/discuzD
+        ports:
+            - "8081:8081"
